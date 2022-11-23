@@ -3,20 +3,20 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            taskList:[{
-                text: 'prova',
-                done: ``
+            taskList: [{
+                text: 'fare la spesa',
+                done: ` `
             },
             {
-                text: 'creo',
-                done: ``
+                text: 'ritirare i panni',
+                done: ` `
             },
-        ],
-            newTaskData:{
+            ],
+            newTaskData: {
                 text: ''
             }
-    }
-},
+        }
+    },
 
     methods: {}
 
