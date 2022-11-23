@@ -6,7 +6,7 @@ createApp({
             taskList: [
                 {
                     text: "fare la spesa",
-                    done: true
+                    done: false
                 },
             ],
 
@@ -16,7 +16,7 @@ createApp({
 
     methods: {
         addList() {
-            this.taskList.push({ 
+            this.taskList.push({
                 text: this.newTaskText, //vado a inserire la stringa nell'array di oggetti
                 done: false
             })
