@@ -20,7 +20,7 @@ createApp({
                 text: this.newTaskText, //vado a inserire la stringa nell'array di oggetti
                 done: false
             })
-
+            this.newTaskText = " "
         },
 
         delateList(index) { //passo l'indice della lista che bisogna eliminare
